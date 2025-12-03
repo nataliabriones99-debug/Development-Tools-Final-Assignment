@@ -1,1 +1,31 @@
+/* ================================
+   RESET & BASE
+================================== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
+:root {
+  --color-bg: #020617;
+  --color-surface: #020617;
+  --color-card: #020617;
+  --color-primary: #2563eb;
+  --color-primary-soft: #1d4ed8;
+  --color-accent: #22d3ee;
+  --color-text-main: #e5e7eb;
+  --color-text-muted: #9ca3af;
+  --color-border: #1f2937;
+  --color-error: #f97373;
+  --color-success: #4ade80;
+
+  --radius-lg: 1.5rem;
+  --radius-md: 0.9rem;
+  --radius-pill: 999px;
+
+  --shadow-soft: 0 18px 45px rgba(15, 23, 42, 0.7);
+  --shadow-small: 0 10px 30px rgba(15, 23, 42, 0.5);
+
+  --transition-fast: 0.18s ease-out;
+}
