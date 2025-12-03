@@ -136,6 +136,13 @@ header {
   font-size: 0.75rem;
   margin-bottom: 0.9rem;
 }
+.hero-badge span.pill {
+  background: linear-gradient(135deg, var(--color-primary), var(--color-accent));
+  border-radius: 999px;
+  padding: 0.15rem 0.5rem;
+  color: #020617;
+  font-weight: 600;
+}
 
 
 
