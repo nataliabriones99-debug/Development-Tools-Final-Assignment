@@ -168,6 +168,22 @@ header {
   flex: 1;
   position: relative;
 }
+.hero-image-inner {
+  border-radius: 1.8rem;
+  padding: 0.15rem;
+  background: radial-gradient(circle at top left, var(--color-accent), transparent 50%),
+    radial-gradient(circle at bottom right, var(--color-primary), transparent 60%);
+  box-shadow: var(--shadow-soft);
+}
+
+.hero-image-inner-inner {
+  background: radial-gradient(circle at top, #0b1120, #020617);
+  border-radius: 1.6rem;
+  padding: 1.2rem;
+  border: 1px solid rgba(148, 163, 184, 0.22);
+  height: 100%;
+}
+
 
 
 
