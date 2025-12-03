@@ -46,3 +46,17 @@ img {
   height: auto;
   display: block;
 }
+a {
+  text-decoration: none;
+  color: inherit;
+}
+main {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 1.5rem 3rem;
+}
+
+section {
+  margin-top: 2.5rem;
+}
+
