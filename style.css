@@ -39,3 +39,10 @@ body {
   background: radial-gradient(circle at top, #0f172a 0, #020617 45%, #000000 90%);
   color: var(--color-text-main);
 }
+
+/* Generic elements */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
