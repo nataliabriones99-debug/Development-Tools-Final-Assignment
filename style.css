@@ -29,3 +29,6 @@
 
   --transition-fast: 0.18s ease-out;
 }
+html {
+  scroll-behavior: smooth;
+}
