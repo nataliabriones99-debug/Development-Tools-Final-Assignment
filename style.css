@@ -86,6 +86,13 @@ header {
   text-transform: uppercase;
   color: var(--color-text-main);
 }
+.main-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 0.9rem;
+  padding-left: 0;
+  margin: 0;
+}
 
 
 
