@@ -124,6 +124,18 @@ header {
 .hero-content {
   flex: 1;
 }
+.hero-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.2rem 0.7rem;
+  border-radius: var(--radius-pill);
+  background: rgba(15, 23, 42, 0.9);
+  border: 1px solid rgba(37, 99, 235, 0.5);
+  color: var(--color-text-muted);
+  font-size: 0.75rem;
+  margin-bottom: 0.9rem;
+}
 
 
 
