@@ -110,6 +110,17 @@ header {
   color: #0b1120;
   font-weight: 600;
 }
+/* ================================
+   HERO
+================================== */
+.hero {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem 3.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
 
 
 
