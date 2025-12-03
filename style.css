@@ -79,6 +79,14 @@ header {
   justify-content: space-between;
   gap: 1.5rem;
 }
+.main-nav .logo {
+  font-weight: 700;
+  font-size: 1.1rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-text-main);
+}
+
 
 
 
