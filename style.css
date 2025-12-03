@@ -143,6 +143,11 @@ header {
   color: #020617;
   font-weight: 600;
 }
+.hero-content h1 {
+  font-size: clamp(2.1rem, 3vw + 1.2rem, 3rem);
+  margin: 0 0 0.6rem;
+  letter-spacing: -0.04em;
+}
 
 
 
