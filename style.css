@@ -164,6 +164,11 @@ header {
   font-size: 0.8rem;
   color: var(--color-text-muted);
 }
+.hero-image {
+  flex: 1;
+  position: relative;
+}
+
 
 
 
