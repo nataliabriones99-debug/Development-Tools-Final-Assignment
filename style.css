@@ -105,6 +105,12 @@ header {
   color: var(--color-text-main);
   transform: translateY(-1px);
 }
+.main-nav a.active {
+  background: linear-gradient(135deg, var(--color-primary), var(--color-accent));
+  color: #0b1120;
+  font-weight: 600;
+}
+
 
 
 
