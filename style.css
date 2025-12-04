@@ -334,6 +334,15 @@ header {
   box-shadow: var(--shadow-soft);
   margin-bottom: 1rem;
 }
+.features-list h2 {
+  margin-top: 0;
+  font-size: 1.1rem;
+}
+
+.features-list p {
+  color: var(--color-text-muted);
+  font-size: 0.95rem;
+}
 
 
 
