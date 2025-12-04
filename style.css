@@ -472,6 +472,16 @@ textarea:focus {
   border-color: var(--color-error);
   box-shadow: 0 0 0 1px rgba(248, 113, 113, 0.5);
 }
+.error-message {
+  color: var(--color-error);
+  font-size: 0.78rem;
+}
+
+.form-success {
+  margin-top: 0.8rem;
+  color: var(--color-success);
+  font-size: 0.85rem;
+}
 
 
 
