@@ -411,6 +411,16 @@ header {
 .read-more-section .btn-tertiary {
   margin-top: 0.8rem;
 }
+/* ================================
+   CONTACT / ABOUT PAGE
+================================== */
+.contact-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 2.5rem;
+}
+
 
 
 
