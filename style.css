@@ -263,6 +263,10 @@ header {
   color: var(--color-text-muted);
   font-size: 0.97rem;
 }
+/* Benefits grid */
+.benefits {
+  margin-top: 2.5rem;
+}
 
 
 
