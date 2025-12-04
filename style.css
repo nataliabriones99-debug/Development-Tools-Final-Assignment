@@ -270,6 +270,11 @@ header {
 .benefits h2 {
   margin-bottom: 1rem;
 }
+.benefit-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.1rem;
+}
 
 
 
