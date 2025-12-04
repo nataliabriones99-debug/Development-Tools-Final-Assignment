@@ -220,6 +220,16 @@ header {
 .btn-secondary:hover {
   background: rgba(15, 23, 42, 1);
 }
+.btn-tertiary {
+  background: transparent;
+  color: var(--color-text-muted);
+  border: 1px dashed rgba(148, 163, 184, 0.5);
+}
+
+.btn-tertiary:hover {
+  border-style: solid;
+  color: var(--color-text-main);
+}
 
 
 
