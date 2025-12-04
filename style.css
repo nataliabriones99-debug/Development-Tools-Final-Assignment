@@ -343,6 +343,16 @@ header {
   color: var(--color-text-muted);
   font-size: 0.95rem;
 }
+/* Mockups */
+.mockups {
+  margin-top: 2.3rem;
+}
+
+.mockup-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+}
 
 
 
