@@ -403,6 +403,14 @@ header {
   border: 1px solid var(--color-border);
   box-shadow: var(--shadow-soft);
 }
+.read-more-section p {
+  color: var(--color-text-muted);
+  font-size: 0.95rem;
+}
+
+.read-more-section .btn-tertiary {
+  margin-top: 0.8rem;
+}
 
 
 
