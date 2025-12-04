@@ -267,7 +267,9 @@ header {
 .benefits {
   margin-top: 2.5rem;
 }
-
+.benefits h2 {
+  margin-bottom: 1rem;
+}
 
 
 
