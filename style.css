@@ -367,8 +367,16 @@ header {
   font-size: 0.82rem;
   color: var(--color-text-muted);
 }
+/* Testimonials */
+.testimonials {
+  margin-top: 2.4rem;
+}
 
-
+.testimonial-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
 
 
 
