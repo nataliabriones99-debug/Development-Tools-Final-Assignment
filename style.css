@@ -496,6 +496,57 @@ footer {
   color: var(--color-text-muted);
   margin-top: 2rem;
 }
+/* ================================
+   RESPONSIVE
+================================== */
+@media (min-width: 640px) {
+  .hero {
+    padding-top: 3rem;
+    padding-bottom: 3.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .benefit-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .mockup-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .testimonial-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .contact-layout {
+    flex-direction: row;
+  }
+
+  .contact-section {
+    flex: 2;
+  }
+
+  .about-section {
+    flex: 1.2;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-nav ul {
+    gap: 0.4rem;
+  }
+
+  .main-nav a {
+    padding-inline: 0.6rem;
+  }
+}
+
 
 
 
