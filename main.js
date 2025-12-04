@@ -25,3 +25,10 @@ document.addEventListener("DOMContentLoaded", function () {
       if (successMessage) {
         successMessage.classList.add("hidden");
       }
+       // Name validation
+      if (!nameInput.value.trim()) {
+        nameError.textContent = "Please enter your name.";
+        nameInput.classList.add("input-error");
+        isValid = false;
+      }
+
