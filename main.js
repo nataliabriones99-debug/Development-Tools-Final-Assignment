@@ -15,3 +15,13 @@ document.addEventListener("DOMContentLoaded", function () {
       const successMessage = document.getElementById("form-success");
 
       let isValid = true;
+      // Reset errors
+      [nameError, emailError, messageError].forEach((el) => {
+        if (el) el.textContent = "";
+      });
+      [nameInput, emailInput, messageInput].forEach((input) => {
+        if (input) input.classList.remove("input-error");
+      });
+      if (successMessage) {
+        successMessage.classList.add("hidden");
+      }
