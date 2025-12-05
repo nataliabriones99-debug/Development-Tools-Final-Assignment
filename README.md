@@ -4,4 +4,3 @@ During the process, one of the key challenges I faced was translating a complex,
 Beyond form validation, I implemented additional JavaScript interactivity to make the website feel more dynamic. I added a Read More / Read Less toggle that expands or collapses additional text based on user interaction. This improves usability and keeps long sections of content manageable on smaller screens. I also used class toggling to smoothly update button labels so users immediately understand what action they’re taking.
 For deployment, I used GitHub Pages because it is simple, fast, free, and fully integrated with version control. It allowed me to push changes directly from my repository and immediately see updates live. 
 
-<img width="1024" height="1024" alt="Prototype2" src="https://github.com/user-attachments/assets/d9432425-aad4-48c3-89f8-22e5d66d4f0c" />
