@@ -323,10 +323,11 @@ header {
   margin-bottom: 1rem;
   color: var(--color-text-main);
 }
-#message-error {
-  display: none; /* hidden by default */
-  color: red;
+.error-message {
+  color: var(--color-error);
   font-size: 0.9rem;
+  margin-top: 0.2rem;
+}
 }
 /* ================================
    FEATURES PAGE
