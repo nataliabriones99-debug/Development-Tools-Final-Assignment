@@ -31,4 +31,18 @@ document.addEventListener("DOMContentLoaded", function () {
         nameInput.classList.add("input-error");
         isValid = false;
       }
+// Email validation
+      const emailValue = emailInput.value.trim();
+      if (!emailValue) {
+        emailError.textContent = "Please enter your email.";
+        emailInput.classList.add("input-error");
+        isValid = false;
+      } else {
+        const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!emailPattern.test(emailValue)) {
+          emailError.textContent = "Please enter a valid email address.";
+          emailInput.classList.add("input-error");
+          isValid = false;
+        }
+      }
 
