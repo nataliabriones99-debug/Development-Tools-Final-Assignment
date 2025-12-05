@@ -45,4 +45,20 @@ document.addEventListener("DOMContentLoaded", function () {
           isValid = false;
         }
       }
+       // Message validation
+      if (!messageInput.value.trim()) {
+        messageError.textContent = "Please enter a message.";
+        messageInput.classList.add("input-error");
+        isValid = false;
+      }
+        if (isValid) {
+        // Simulate success
+        form.reset();
+        if (successMessage) {
+          successMessage.classList.remove("hidden");
+        }
+      }
+    });
+  }
+
 
