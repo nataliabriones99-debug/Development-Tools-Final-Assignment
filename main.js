@@ -60,5 +60,20 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     });
   }
+// Read more / read less toggle
+  const readMoreButtons = document.querySelectorAll(".read-more-btn");
+  readMoreButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      const targetId = button.getAttribute("data-target");
+      const target = document.getElementById(targetId);
+
+      if (target) {
+        const isHidden = target.classList.contains("hidden");
+        target.classList.toggle("hidden");
+        button.textContent = isHidden ? "Read less" : "Read more";
+      }
+    });
+  });
+});
 
 
